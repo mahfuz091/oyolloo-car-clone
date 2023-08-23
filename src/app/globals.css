@@ -43,9 +43,9 @@
   height: 1px;
 }
 
-.banner {
+.banner,
+.cars {
   background: #0f131c;
-  margin-top: -1px;
 }
 
 .banner .page-wrapper {
@@ -94,7 +94,7 @@
   }
 }
 
-.next>span {
+.next > span {
   display: block;
   height: 1.5px;
   /* width: 64px; */
@@ -103,7 +103,7 @@
 }
 
 @media (min-width: 1024px) {
-  .next>span {
+  .next > span {
     width: 64px;
   }
 }
@@ -393,7 +393,7 @@
 
 .footer .page-wrapper li a,
 .footer .page-wrapper p {
-  color: #67738C;
+  color: #67738c;
   font-size: 14px;
 
   font-weight: 400;
@@ -408,4 +408,25 @@
   .footer .page-wrapper li {
     margin-bottom: 15px;
   }
+}
+/* 
+@media (min-width: 992px) {
+  .cars-content_two {
+    left: 455px !important;
+  }
+} */
+/* @media (min-width: 1620px) {
+  .cars-content_one {
+    left: 225px !important;
+  }
+  .cars-content_two {
+    left: 630px !important;
+  }
+  .cars-content_three {
+    left: 1015px !important;
+  }
+} */
+
+.cars .page-wraper {
+  position: relative;
 }

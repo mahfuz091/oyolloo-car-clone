@@ -21,7 +21,7 @@ const Cars = () => {
           alt='Logo'
         /> */}
       </div>
-      <div className='page-wrapper pt-[122px]'>
+      <div className='page-wrapper pt-[122px] overflow-hidden'>
         <h1
           style={bebas_neue.style}
           className='cars-title uppercase pl-8 text-[40px] lg:text-[70px] md:mb-[40px] lg:mb-[70px] text-white'
@@ -29,15 +29,17 @@ const Cars = () => {
           Cars to suit <br /> your lifestyle
         </h1>
 
-        <div className='cars-details-group grid grid-cols-1 md:grid-cols-2  gap-3 md:gap-0 lg:gap-[45px] xl:gap-[119px] pl-[116px] mt-4 '>
+        <div className='cars-details-group grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-3 md:gap-0 lg:gap-[45px] xl:gap-[119px] pl-[116px] mt-4 '>
           <div className='  '>
-            <Image src='/cars-details-bg.png'
+            <Image
+              src='/cars-details-bg.png'
               className=''
               width={264}
               height={301}
-              alt='Logo' />
+              alt='Logo'
+            />
 
-            <div className='absolute top-[275px] md:top-[300px] left-1 xl:top-[420px] xl:left-[365px]'>
+            <div className='cars-content_one absolute top-[275px] md:top-[300px] lg:top-[420px] left-1 xl:top-[420px] xl:left-[135px] 2xl:left-[365px]'>
               <h3
                 style={satoshi.style}
                 className='text-[#FFF] text-[30px]   text-center ml-[140px] xl:ml-[147px]'
@@ -58,17 +60,18 @@ const Cars = () => {
                 alt='Logo'
               />
             </div>
-
           </div>
 
           <div className=' mt-24 xl:mt-[80px] '>
-            <Image src='/cars-details-bg.png'
+            <Image
+              src='/cars-details-bg.png'
               className=''
               width={264}
               height={301}
-              alt='Logo' />
+              alt='Logo'
+            />
 
-            <div className='absolute top-[690px] md:top-[395px]  left-2 md:left-[340px] xl:top-[500px] xl:left-[770px]'>
+            <div className='cars-content_two absolute top-[690px] md:top-[395px] lg:top-[515px]  left-2 md:left-[340px] lg:left-[490px] xl:top-[500px] xl:left-[545px] 2xl:left-[770px]'>
               <h3
                 style={satoshi.style}
                 className='text-[#FFF] text-[30px] lg:text-[30px]  text-center ml-[130px] md:ml-[120px] xl:ml-[114px]'
@@ -89,16 +92,17 @@ const Cars = () => {
                 alt='Logo'
               />
             </div>
-
           </div>
           <div className='mt-14 xl:mt-[159px] '>
-            <Image src='/cars-details-bg.png'
+            <Image
+              src='/cars-details-bg.png'
               className=''
               width={264}
               height={301}
-              alt='Logo' />
+              alt='Logo'
+            />
 
-            <div className='absolute top-[1060px] md:top-[750px] left-1 xl:top-[575px] xl:left-[1154px] '>
+            <div className='cars-content_three absolute top-[1060px] md:top-[750px] lg:top-[915px] left-1 xl:top-[575px] xl:left-[930px] 2xl:left-[1154px] '>
               <h3
                 style={satoshi.style}
                 className='text-[#FFF] text-[30px]  lg:text-[30px]  text-center ml-[130px] xl:ml-[116px]'
@@ -119,7 +123,6 @@ const Cars = () => {
                 alt='Logo'
               />
             </div>
-
           </div>
           {/* <div className='cars-details relative md:mt-10 lg:mt-[80px] '>
             <div className='absolute top-0 left-0 right-0 bottom-0 rounded-t-[20px] rounded-b-none overflow-hidden bg-car-gradient '>
