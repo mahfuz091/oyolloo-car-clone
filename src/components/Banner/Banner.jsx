@@ -24,7 +24,7 @@ const Banner = () => {
         </h1>
         <Image
           className=' mx-auto   banner-img'
-          src='/banner-copy.png'
+          src='/banner-bg.png'
           width={584}
           height={661}
           alt='Logo'
