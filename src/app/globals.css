@@ -94,7 +94,7 @@
   }
 }
 
-.next > span {
+.next>span {
   display: block;
   height: 1.5px;
   /* width: 64px; */
@@ -103,7 +103,7 @@
 }
 
 @media (min-width: 1024px) {
-  .next > span {
+  .next>span {
     width: 64px;
   }
 }
@@ -409,6 +409,7 @@
     margin-bottom: 15px;
   }
 }
+
 /* 
 @media (min-width: 992px) {
   .cars-content_two {
@@ -429,4 +430,45 @@
 
 .cars .page-wraper {
   position: relative;
+}
+
+.carsbg {
+  background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(15, 19, 28, 0.00) 0%, #0F131C 98.77%), url(../assets/image/bb.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 767px;
+  width: 1150px;
+
+}
+
+.footer input {}
+
+::placeholder {
+  color: var(--p-2, #67738C);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.subscribe-email {
+  width: 263px;
+  max-width: 100%;
+  position: relative;
+}
+
+.subscribe-email input {
+  border-radius: 5px;
+  border: 1px solid #4B5157;
+  outline: none;
+  width: 100%;
+}
+
+.subscribe-email button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 0 5px 5px 0;
 }

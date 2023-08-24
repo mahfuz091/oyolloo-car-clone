@@ -11,8 +11,8 @@ const satoshi = localFont({
 
 const Cars = () => {
   return (
-    <div className='cars flex flex-row-reverse  relative -z-10 bg-[#0F131C]  '>
-      <div className=' absolute left-[717px] -top-32'></div>
+    <div className='cars flex flex-row-reverse  relative -z-10 bg-[#0F131C] overflow-hidden '>
+      <div className='carsbg absolute -top-32 -right-20  -z-10 overflow-hidden'></div>
       <div className='page-wrapper pt-[122px] overflow-hidden'>
         <h1
           style={bebas_neue.style}

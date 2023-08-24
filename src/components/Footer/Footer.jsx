@@ -47,8 +47,8 @@ const Footer = () => {
                         <h5 style={satoshi.style} className="title">Subscribe Now </h5>
                         <p style={satoshiMedium.style} className="desc lg:mb-7 ">A newsletter is a tool used to communicate regularly with your subscribers</p>
                         <div className="subscribe-email">
-                            <input type="email" name="" id="" />
-                            <button className="send-btn py-[10px] px-3 "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                            <input className='bg-[#161b28] py-[10px] pl-[15px] text-[#67738C] ' type="email" name="" id="" placeholder='Enter your email' />
+                            <button className="send-btn py-[13px] px-3 "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9084 2.63236C18.8282 2.565 18.7142 2.54937 18.6176 2.59234L1.15569 10.3684C1.06168 10.4103 1.00115 10.5001 1.00002 10.5995C0.998886 10.6988 1.05743 10.7899 1.15053 10.8337L4.6 12.3258C4.69062 12.3685 11.8 8.77764 11.8 8.77764L7.43411 13.4654C7.34792 13.5579 7.3 13.6797 7.3 13.8062V17.2943C7.3 17.7444 7.84822 17.9653 8.1603 17.641L10.441 15.2706L14.0421 17.0175C14.1125 17.0497 14.194 17.0511 14.2655 17.0213C14.337 16.9914 14.3915 16.9333 14.4148 16.8621L18.9876 2.90349C19.0196 2.80601 18.9884 2.69971 18.9084 2.63236Z" fill="white" />
                             </svg></button>
 
