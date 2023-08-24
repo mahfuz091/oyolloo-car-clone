@@ -11,7 +11,7 @@ const satoshi = localFont({
 
 const Cars = () => {
   return (
-    <div className='cars flex flex-row-reverse  relative -z-10 bg-[#0F131C] overflow-hidden '>
+    <div className='cars flex flex-row-reverse  relative -z-10 bg-[#0F131C]  overflow-hidden '>
       <div className='carsbg absolute -top-32 -right-20  -z-10 overflow-hidden'></div>
       <div className='page-wrapper pt-[122px] overflow-hidden'>
         <h1
@@ -22,6 +22,9 @@ const Cars = () => {
         </h1>
 
         <div className='cars-details-group grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-3 md:gap-0 lg:gap-[45px] xl:gap-[119px] pl-[116px] mt-4 '>
+
+
+
           <div className='  '>
             <Image
               src='/cars-details-bg.png'
