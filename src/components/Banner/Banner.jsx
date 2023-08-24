@@ -23,11 +23,11 @@ const Banner = () => {
           Iconic Now Electric
         </h1>
         <Image
-          className=' mx-auto   banner-img'
+          className='mx-auto banner-img'
           src='/banner-bg.png'
           width={584}
           height={661}
-          alt='Logo'
+          alt='banner'
         />
         <div className='hidden lg:block middle-circle absolute lg:left-[200px] xl:left-[277px] top-[450px]'></div>
         <div className='banner-car-img hidden xl:flex justify-between items-center '>
