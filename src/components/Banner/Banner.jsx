@@ -7,7 +7,7 @@ const satoshi = localFont({ src: "./Satoshi-Bold.otf", display: "swap" });
 const Banner = () => {
   return (
     // h-[420px] md:h-[740px] lg:h-[750px] xl:h-[793px]
-    <div className='banner px-4 md:px-2 pb-6 md:pb-16 lg:pb-0 overflow-hidden relative z-50 '>
+    <div className='banner -mt-[1px] px-4 md:px-2 pb-6 md:pb-16 lg:pb-0 overflow-hidden relative z-50 '>
       <div className='page-wrapper overflow-hidden'>
         <Image
           className='pt-[15px]  md:pt-[25px]  iconic-img'
