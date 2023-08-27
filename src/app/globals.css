@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #0F131C;
+}
+
 @font-face {
   font-family: "Satoshi-Variable";
   src: url("../assets/font/Satoshi-Bold.otf") format("otf");
@@ -443,7 +447,7 @@
 
 }
 
-.footer input {}
+
 
 ::placeholder {
   color: var(--p-2, #67738C);
@@ -471,4 +475,8 @@
   right: 0;
   bottom: 0;
   border-radius: 0 5px 5px 0;
+}
+
+.cars-details-group img {
+  max-width: 170%;
 }

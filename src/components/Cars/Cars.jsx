@@ -21,35 +21,33 @@ const Cars = () => {
           Cars to suit <br /> your lifestyle
         </h1>
 
-        <div className='cars-details-group grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-3 md:gap-0 lg:gap-[45px] xl:gap-[119px] pl-[116px] mt-4 '>
+        <div className='cars-details-group grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-3 md:gap-0 lg:gap-[45px] xl:gap-[119px] pl-[116px] mt-4 pb-[370px]  xl:pb-[115px]'>
 
-
-
-          <div className='  '>
+          <div className='relative  '>
             <Image
               src='/cars-details-bg.png'
-              className=''
+              className='absolute top-0 left-0'
               width={264}
               height={301}
               alt='Logo'
             />
 
-            <div className='cars-content_one absolute top-[275px] md:top-[300px] lg:top-[420px] left-1 xl:top-[420px] xl:left-[135px] 2xl:left-[365px]'>
+            <div className=' absolute left-[31px] top-[14px] '>
               <h3
                 style={satoshi.style}
-                className='text-[#FFF] text-[30px]   text-center ml-[140px] xl:ml-[147px]'
+                className='text-[#FFF] text-[30px] text-center '
               >
                 New Car-B150
               </h3>
               <p
                 style={satoshi.style}
-                className='cars-details-price text-center text-[30px]  lg:text-[30px] ml-[140px] xl:ml-[147px]  '
+                className='cars-details-price text-center text-[30px]  lg:text-[30px]   '
               >
                 $124,100
               </p>
               <Image
                 src='/purepng.png'
-                className='mt-[45px] md:mt-[25px] xl:mt-[13px]'
+                className='absolute top-[113px] z-20 right-[0px]'
                 width={350}
                 height={202}
                 alt='Logo'
@@ -57,7 +55,10 @@ const Cars = () => {
             </div>
           </div>
 
-          <div className=' mt-24 xl:mt-[80px] '>
+
+
+
+          <div className='relative mt-[350px] md:mt-24 xl:mt-[80px] '>
             <Image
               src='/cars-details-bg.png'
               className=''
@@ -66,53 +67,53 @@ const Cars = () => {
               alt='Logo'
             />
 
-            <div className='cars-content_two absolute top-[690px] md:top-[395px] lg:top-[515px]  left-2 md:left-[340px] lg:left-[490px] xl:top-[500px] xl:left-[545px] 2xl:left-[770px]'>
+            <div className='cars-content_two absolute left-[31px] top-[14px] z-20 '>
               <h3
                 style={satoshi.style}
-                className='text-[#FFF] text-[30px] lg:text-[30px]  text-center ml-[130px] md:ml-[120px] xl:ml-[114px]'
+                className='text-[#FFF] text-[30px]  text-center '
               >
                 New Car-A240
               </h3>
               <p
                 style={satoshi.style}
-                className='cars-details-price text-center text-[30px] lg:text-[30px] ml-[130px] md:ml-[120px]  xl:ml-[116px]  '
+                className='cars-details-price text-center text-[30px] lg:text-[30px] = '
               >
                 $324,240
               </p>
               <Image
                 src='/audi-png-car.png'
-                className=' mt-[40px] xl:mt-[26px]'
+                className='absolute top-[126px] -right-[2px]'
                 width={350}
                 height={217}
                 alt='Logo'
               />
             </div>
           </div>
-          <div className='mt-14 xl:mt-[159px] '>
+          <div className='relative mt-14 xl:mt-[159px] '>
             <Image
               src='/cars-details-bg.png'
-              className=''
+              className='absolute'
               width={264}
               height={301}
               alt='Logo'
             />
 
-            <div className='cars-content_three absolute top-[1060px] md:top-[750px] lg:top-[915px] left-1 xl:top-[575px] xl:left-[930px] 2xl:left-[1154px] '>
+            <div className='cars-content_three absolute left-[31px] top-[14px] '>
               <h3
                 style={satoshi.style}
-                className='text-[#FFF] text-[30px]  lg:text-[30px]  text-center ml-[130px] xl:ml-[116px]'
+                className='text-[#FFF] text-[30px]   text-center '
               >
                 New Car-B150
               </h3>
               <p
                 style={satoshi.style}
-                className='cars-details-price text-center text-[30px]  lg:text-[30px] ml-[130px] x:ml-[114px]  '
+                className='cars-details-price text-center text-[30px]   '
               >
                 $424,100
               </p>
               <Image
                 src='/blue-ford-focus-car-png.png'
-                className=''
+                className='absolute top-[111px] right-0'
                 width={361}
                 height={194}
                 alt='Logo'
